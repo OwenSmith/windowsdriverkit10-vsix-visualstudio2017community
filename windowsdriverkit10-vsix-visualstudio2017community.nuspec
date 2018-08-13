@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>windowsdriverkit10-vsix-visualstudio2017community</id>
+    <version>10.1.17134.1</version>
+    <title>VSIX integration for WDK10 / VS2017</title>
+    <authors>Owen Smith</authors>
+	<projectUrl>https://github.com/OwenSmith/windowsdriverkit10-vsix-visualstudio2017community</projectUrl>
+	<packageSourceUrl>https://github.com/OwenSmith/windowsdriverkit10-vsix-visualstudio2017community/</packageSourceUrl>
+    <tags>windowsdriverkit10 vsix visualstudio2017community</tags>
+    <summary>Integrates the WDK10 with Visual Studio 2017</summary>
+    <description>Integrates the WDK10 with Visual Studio 2017</description>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="windowsdriverkit10" version="10.1.17134" />
+      <dependency id="visualstudio2017community" version="15.7.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
