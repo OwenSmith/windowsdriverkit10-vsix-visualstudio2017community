@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>windowsdriverkit10-vsix-visualstudio2017community</id>
-    <version>10.1.17134.1</version>
+    <version>10.0.17134</version>
     <title>VSIX integration for WDK10 / VS2017</title>
     <authors>Owen Smith</authors>
 	<projectUrl>https://github.com/OwenSmith/windowsdriverkit10-vsix-visualstudio2017community</projectUrl>
@@ -13,7 +13,7 @@
     <description>Integrates the WDK10 with Visual Studio 2017</description>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="windowsdriverkit10" version="10.1.17134" />
+      <dependency id="windowsdriverkit10" version="10.0.17134" />
       <dependency id="visualstudio2017community" version="15.7.4" />
     </dependencies>
   </metadata>
